@@ -25,6 +25,6 @@ git clone https://github.com/woojin-devv/mi_card_flutter.git
 
 ## 실행화면
 <p align="center">
-  <img src="images/example.png" alt="실행 예시 화면" width="250">
+  <img src="example.png" alt="실행 예시 화면" width="250">
 </p>
 
