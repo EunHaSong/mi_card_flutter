@@ -16,10 +16,11 @@ class MyApp extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             CircleAvatar(
-              radius: 50.0,
+              radius: 55.0,
               // backgroundColor: Colors.white70,)
               backgroundImage: AssetImage('images/songhaeun.png'),
             ),
+            SizedBox(height: 15.0),
             Text(
               "SongHaeun",
               style: TextStyle(
@@ -86,7 +87,6 @@ class MyApp extends StatelessWidget {
                 ),
               ),
             ),
-            SizedBox(height: 30.0),
           ],
         ),
       ),
