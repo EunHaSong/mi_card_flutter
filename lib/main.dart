@@ -10,6 +10,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      // debugShowCheckedModeBanner: false, // 개발자 모드 안보이게 수정하기
       home: Scaffold(
         backgroundColor: Colors.indigo[300],
         body: Column(
@@ -20,11 +21,11 @@ class MyApp extends StatelessWidget {
               // backgroundColor: Colors.white70,)
               backgroundImage: AssetImage('images/songhaeun.png'),
             ),
-            SizedBox(height: 15.0),
+            SizedBox(height: 5.0),
             Text(
-              "SongHaeun",
+              "Haeun Song",
               style: TextStyle(
-                fontFamily: 'Sacramento',
+                fontFamily: 'Pacifico',
                 fontWeight: FontWeight.bold,
                 fontSize: 45.0,
                 color: Colors.white,
